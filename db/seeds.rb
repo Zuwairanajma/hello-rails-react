@@ -15,15 +15,15 @@ Message.destroy_all
 
 # Add 5 different greetings
 greetings = [
-  "Hello, world!",
-  "Greetings from Rails!",
-  "Welcome to the app!",
-  "Good day to you!",
-  "Hi there, how are you?"
+  'Hello, world!',
+  'Greetings from Rails!',
+  'Welcome to the app!',
+  'Good day to you!',
+  'Hi there, how are you?'
 ]
 
 greetings.each do |greeting|
   Message.create(content: greeting)
 end
 
-puts "Seeding completed successfully!"
+puts 'Seeding completed successfully!'
