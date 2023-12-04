@@ -8,7 +8,6 @@ const App = () => {
   return (
     <Router>
       <Route path="/" exact component={Greeting} />
-      {/* Add other routes if needed */}
     </Router>
   );
 };
