@@ -66,9 +66,8 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
 end
-
-# gem 'jsbundling-rails'
 gem 'react-rails'
+# gem 'jsbundling-rails
 
 gem 'webpacker'
 
