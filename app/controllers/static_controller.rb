@@ -1,5 +1,3 @@
 class StaticController < ApplicationController
-  def index
-    @messages = Message.all
-  end
+  def index; end
 end

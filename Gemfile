@@ -68,7 +68,8 @@ group :test do
 end
 
 # gem 'jsbundling-rails'
-gem 'webpacker'
 gem 'react-rails'
+
+gem 'webpacker'
 
 gem 'rack-cors'

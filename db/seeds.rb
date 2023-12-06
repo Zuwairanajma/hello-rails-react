@@ -11,7 +11,7 @@
 
 # Clear existing messages
 
-Message.destroy_all
+ Message.destroy_all
 
 # Add 5 different greetings
 greetings = [
@@ -23,7 +23,7 @@ greetings = [
 ]
 
 greetings.each do |greeting|
-  Message.create(message: greeting)
+  Message.create(content: greeting)
 end
 
 puts 'Seeding completed successfully!'
